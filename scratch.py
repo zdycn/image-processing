@@ -13,6 +13,8 @@ exudate = data['mosaicExudate']
 im = Image.fromarray(exudate)
 im.show()
 
+##
+
 # ------------------------------------------------------#
 #%%
 import cv2
