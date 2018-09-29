@@ -8,6 +8,11 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 from sklearn.metrics import roc_curve, precision_recall_curve
 
 def plot_training(history):
+    """
+
+    :param history:
+    :return:
+    """
     acc = history.history['acc']
     val_acc = history.history['val_acc']
     loss = history.history['loss']
