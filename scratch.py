@@ -9,11 +9,10 @@ fundus = data['mosaic']
 
 exudate = data['mosaicExudate']
 
+
 #im = Image.fromarray(fundus)
 im = Image.fromarray(exudate)
 im.show()
-
-##
 
 # ------------------------------------------------------#
 #%%
@@ -196,3 +195,14 @@ superimposed_img = heatmap * 0.4 + img
 cv2.imwrite(r'f:/elephant_cam.jpg', superimposed_img)
 
 plt.show()
+
+#%%
+import numpy as np
+import matplotlib.pyplot as plt
+
+x = [0, 1]
+y = [0, 1]
+plt.figure()
+plt.plot(x, y)
+# plt.savefig("easyplot.jpg")
+
