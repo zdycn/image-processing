@@ -6,7 +6,7 @@ import itertools
 from sklearn.metrics import confusion_matrix, classification_report, cohen_kappa_score, roc_auc_score
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, jaccard_similarity_score
 from sklearn.metrics import roc_curve, precision_recall_curve
-
+#kjk
 def plot_training(history):
     """
 
