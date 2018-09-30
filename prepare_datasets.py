@@ -230,6 +230,7 @@ def get_images_from_indexfile(indexfile, images_path, sample_path):
         if (i + '\n') in results:
             shutil.move(images_path + '/' + i, sample_path + '/' + i)
 
+"""剪裁图片"""
 def crop(src_path,dst_path,revised_size):
     """
     从源图像集中读取所有图片文件，将其复制到目标路径并重新设定图片的分辨率（裁剪图片）
